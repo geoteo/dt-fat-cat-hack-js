@@ -16,6 +16,8 @@ In this exercise you'll learn how to ingest the name and weight (lbs) of each ca
 - Linux
 - npm
 - git
+- OneAgent installed on host
+- Scripting integration enabled
 
 ### Step 1: Getting Started
 
