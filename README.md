@@ -22,13 +22,13 @@ In this exercise you'll learn how to ingest the name and weight (lbs) of each ca
 1. Pull down the code repo.
 
    ```bash
-   git clone https://github.com/geoteo/dt-fat-cat-hack
+   git clone https://github.com/geoteo/dt-fat-cat-hack-js
    ```
 
 2. Change directories.
 
     ```bash
-    cd dt-fat-cat-hack
+    cd dt-fat-cat-hack-js
     ```
 3. Install the necessary packages.
 
