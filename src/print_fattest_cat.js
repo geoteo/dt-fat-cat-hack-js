@@ -15,7 +15,7 @@ async function main() {
   for (const catPage of catPages) {
     const catDetails = await fetchCatDetails(catPage);
     if (catDetails.lbs != 0) {
-      output = "echo \"animal.cat.weight,name=\"" + catDetails.name + "\" " + catDetails.lbs + "\" | dynatrace_ingest -v";
+      output = "echo \"animal.cat.weight,name=\"" + catDetails.name + "\" " + catDetails.lbs + "\" | /opt/dynatrace/oneagent/agent/tools/dynatrace_ingest -v";
       console.log(output);
       exec(output);
     }
